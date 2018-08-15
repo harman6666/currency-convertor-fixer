@@ -32,10 +32,10 @@ Some Examples/Screenshots
 - Normal conversion view:
 ![Normal-Conversion](https://s8.postimg.cc/fudf7pm3p/Screen_Shot_2018-08-15_at_4.13.09_PM.png)
 - Big number output view:
-![Big-num](https://s8.postimg.cc/s90781t1h/Screen_Shot_2018-08-15_at_4.24.28_PM.png)
+![Big-num](https://s8.postimg.cc/ne6i9x7md/Screen_Shot_2018-08-15_at_5.56.37_PM.png)
 
 - Mobile view:
-![mobile-view](https://s8.postimg.cc/69tskuzcl/Screen_Shot_2018-08-15_at_4.30.06_PM.png)
+![mobile-view](https://s8.postimg.cc/bp7kikf45/Screen_Shot_2018-08-15_at_5.57.42_PM.png)
 
 - Client side error message:
 ![error-msg](https://s8.postimg.cc/69tsl0zed/Error_msg.png)
