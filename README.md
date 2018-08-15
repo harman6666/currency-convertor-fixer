@@ -6,7 +6,7 @@ Introduction
 This is a currency conversion application which convert EUR to USD and JPY with Fixer API.
 User can convert the currency to the latest trends and also to the previous trends.
 
-Features/Functionality
+Features/Functionalities
 ---------
 
 - Used Fixer API for getting the latest rates.

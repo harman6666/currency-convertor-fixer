@@ -1,6 +1,6 @@
 /************************************
  * Author: Harmanpreet Singh
- * Task: Currenct convertor
+ * Task: Currency converter
  * Date: Aug 15th, 2018
  ************************************/
 
