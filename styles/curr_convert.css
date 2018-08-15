@@ -1,0 +1,152 @@
+html {
+    background: #453d8a;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: #fff;
+    max-width: 30rem;
+    padding: 1rem 0.8rem 3rem;
+}
+
+header {
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    position: fixed;
+    top: 2rem;
+    left: 0;
+    right: 0;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #453d8a;
+    font-weight: normal;
+    letter-spacing: -1px;
+}
+
+p {
+    color: #151F1F;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 0.4rem;
+    border-radius: 0.2rem;
+}
+
+input[type="number"] {
+    padding: 0.4rem;
+    border-radius: 0.2rem;
+    border: 1px solid #999;
+    width: 90%;
+    margin-bottom: 0.6rem;
+    font-size: 1rem;
+}
+
+input[type="number"]:focus {
+    border-color: #151F1F;
+}
+
+.conversion-wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.result-values {
+    margin: 1rem 0 1rem 0;
+}
+
+.result-values .input-wrapper {
+    position: relative;
+}
+
+.currency-icon {
+    font-size: 2rem;
+}
+
+.currency-val {
+    position: absolute;
+    top: 0.5rem;
+    left: 2.5rem;
+}
+
+.convert-button {
+    text-align: center;
+    margin: 0.6rem auto 0;
+    text-transform: uppercase;
+    color: white;
+    background-color: #453d8a;
+    border: 1px solid #453d8a;
+    border-radius: 0.2rem;
+    padding: 0.4rem 1.2rem;
+    cursor: pointer;
+    transition: 0.3s background ease-in;
+    display: block;
+}
+
+.convert-button:hover {
+    background-color: #516395;
+    border-color: #453d8a;
+}
+
+.date-wrapper {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.date-wrapper span {
+    color: #0000008a;
+}
+
+.error-strip {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 400;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 2;
+}
+.error-strip.error {
+    background-color: red;
+    padding: 1.05rem 0;
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 1rem 5rem 3rem;
+    }
+    header {
+        font-size: 2rem;
+        top: 1rem;
+    }
+    .conversion-wrapper {
+        width: 70%;
+    }
+    .result-values {
+        margin: 1rem 0 1rem 1rem;
+    }
+    .result-values .input-wrapper {
+        display: inline-block;
+        width: 49%;
+    }
+    .euro-currency-icon {
+        font-size: 1.2rem;
+    }
+    .currency-icon {
+        font-size: 3rem;
+    }
+    .currency-val {
+        top: 1.2rem;
+    }
+}

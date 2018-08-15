@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="styles/curr_convert.css" />
+    <link rel="stylesheet" href="styles/loader.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" /> 
+    <script src="./utils/number_convertor.js"></script>
+    <script src="./lib/axios.min.js" async></script>
+</head>
+<header>𝒮𝓉𝓎𝓁𝒾𝑔𝒽𝓉 𝒻𝓇𝑜𝓃𝓉𝑒𝓃𝒹 𝓉𝒶𝓈𝓀</header>
+<body>
+    <div class="loader"></div>
+    <section class="container">
+        <h1>Currency Convertor </h1>
+        <p>Enter your amount in Euro to see how much it is USD and YEN. You can also use the date functionality for getting previous currency data.</p>
+        <div class="conversion-wrapper">
+            <div class="input-wrapper date-wrapper">
+                <span>Date</span>
+                <!--We can also use type as date.-->
+                <input type="text" name="date" class="date" />
+                <span>optional</span>
+            </div>
+            <div class="input-wrapper">
+                <span class="euro-currency-icon">€</span>
+                <input type="number" name="euro" class="euro" placeholder="0.00" step="0.01" min="0.1" max="999999999999999999999999" />
+            </div>
+            <div class="result-values">
+                <div class="input-wrapper">
+                    <span class="currency-icon">$</span>
+                    <span class="usd currency-val">0.00</span>
+                </div>
+                <div class="input-wrapper">
+                    <span class="currency-icon">¥</span>
+                    <span class="jpy currency-val">0.00</span>
+                </div>
+            </div>
+            <button class="convert-button">Convert</button>
+        </div>
+        <div class="error-strip"></div>
+    </section>
+    <script src="script/curr_convert.js"></script>
+</body>
+</html>
