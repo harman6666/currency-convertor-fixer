@@ -1,4 +1,4 @@
-# Stylight Frontend Developer task (currency-convertor)
+# Stylight Frontend Developer task (currency-converter)
 ____________
 Introduction
 ------------
