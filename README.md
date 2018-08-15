@@ -29,15 +29,15 @@ So, For this reason I structured the application in a effiecent manner.
 
 Some Examples/Screenshots
 --------------------
-Normal conversion view:
+- Normal conversion view:
 ![Normal-Conversion](https://s8.postimg.cc/fudf7pm3p/Screen_Shot_2018-08-15_at_4.13.09_PM.png)
-Big number output view:
+- Big number output view:
 ![Big-num](https://s8.postimg.cc/s90781t1h/Screen_Shot_2018-08-15_at_4.24.28_PM.png)
 
-Mobile view:
+- Mobile view:
 ![mobile-view](https://s8.postimg.cc/69tskuzcl/Screen_Shot_2018-08-15_at_4.30.06_PM.png)
 
-CLient side error message:
+- Client side error message:
 ![error-msg](https://s8.postimg.cc/69tsl0zed/Error_msg.png)
 
 ### Mnay thanks for looking out !
