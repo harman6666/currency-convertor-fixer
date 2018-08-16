@@ -1,29 +1,21 @@
 /***********************
  * Common utility for converting numbers into Million, Billion, and so on. 
  ************************/
-function numberConvertor() {
-	if (this >= 1e6) {
-		var units = 
-		[
-			"Million",
-			"Billion",
-			"Trillion",
-			"Quadrillion",
-			"Quintillion",
-			"Sextillion",
-			"Septillion",
-			"Octillion"
-		];
+function numberConvertor(min) {
+	min = min || 1e3; // also supported the min parameter for changing the base condition.
+	if (this >= min) { 
+		var units = ["k", "M", "B", "T", "QuadT", "QuintT", "SexT", "SeptT"];
+		
+		var order = Math.floor(Math.log(this) / Math.log(1000));
 
-		var unit = Math.floor((this / 1000).toFixed(0).toString().length);
-		var num = (this / ('1e'+(unit+2))).toFixed(3);
-		var unitname = units[Math.floor(unit / 3) - 1];
-		return num + ' ' + unitname;
+		var unitname = units[(order - 1)];
+		var num = (this / 1000 ** order).toFixed(2);
+		
+		return num + unitname
 	}
-
-	var parts = this.toString().split(".");
-	parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-	return parts.join(".");
+	
+	// return formatted original number
+	return this.toLocaleString()
 }
 
 Number.prototype.numberConvertor = numberConvertor;
