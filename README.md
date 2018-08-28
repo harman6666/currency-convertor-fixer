@@ -34,9 +34,6 @@ Some Examples/Screenshots
 - Big number output view:
 ![Big-num](https://s8.postimg.cc/ne6i9x7md/Screen_Shot_2018-08-15_at_5.56.37_PM.png)
 
-- Mobile view:         
-![mobile-view](https://s8.postimg.cc/bp7kikf45/Screen_Shot_2018-08-15_at_5.57.42_PM.png)
-
 - Client side error message:
 ![error-msg](https://s8.postimg.cc/69tsl0zed/Error_msg.png)
 
