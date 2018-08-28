@@ -1,4 +1,4 @@
-# Stylight Frontend Developer task (currency-converter)
+# Currency-converter using fixer
 ____________
 Introduction
 ------------
